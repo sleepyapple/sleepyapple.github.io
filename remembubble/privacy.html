@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>리멤버블 개인정보 처리방침</title>
+<!--
+  구글 플레이 등록용 개인정보 처리방침 (공개 웹 주소가 필요함).
+  공개 주소: https://sleepyapple.github.io/remembubble/privacy.html (공개 저장소 sleepyapple.github.io 에 같은 파일을 올림 — 고치면 둘 다 갱신)
+  ⚠ 광고(AdMob 등)·결제·서버 기능을 넣으면 반드시 이 문서도 고쳐야 한다.
+-->
+<style>
+  :root { --bg: #f2f2f7; --card: #fff; --text: #1c1c1e; --sub: #6e6e73; --line: #e3e3e8; --accent: #5b4bdb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000; --card: #1c1c1e; --text: #f2f2f7; --sub: #98989f; --line: #2c2c2e; --accent: #9d90ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .meta { color: var(--sub); margin: 0 0 24px; }
+  section { background: var(--card); border-radius: 16px; padding: 20px 22px; margin: 14px 0; }
+  h2 { font-size: 19px; margin: 0 0 10px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 8px; border-top: 1px solid var(--line); }
+  th { color: var(--sub); font-weight: 600; border-top: none; }
+  a { color: var(--accent); }
+  .summary { border: 2px solid var(--accent); }
+  @media (max-width: 520px) { table, tbody, tr, td { display: block; } thead { display: none; }
+    tr { border-top: 1px solid var(--line); padding: 6px 0; } td { border: none; padding: 3px 0; } td:first-child { font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>리멤버블 개인정보 처리방침</h1>
+  <p class="meta">시행일: 2026년 10월 19일 · 앱 패키지: com.jaerim.remembubble</p>
+
+  <section class="summary">
+    <h2>한눈에 보기</h2>
+    <ul>
+      <li>리멤버블은 <b>회원가입이 없고, 개발자가 운영하는 서버도 없습니다.</b></li>
+      <li>모은 글귀·책 이름·태그·카드 이미지는 <b>이용자의 휴대폰 안에만</b> 저장되며 개발자에게 전송되지 않습니다.</li>
+      <li>화면 캡처는 이용자가 ‘수집’을 누른 순간에만, 글자를 읽기 위해 <b>휴대폰 안에서만</b> 쓰고 바로 버립니다. 저장하거나 밖으로 보내지 않습니다.</li>
+      <li>글자 인식에 쓰는 Google ML Kit는 기능 개선을 위해 기기·앱 정보와 성능 지표를 Google에 보낼 수 있습니다. <b>화면 이미지와 글귀 내용은 보내지 않습니다.</b> (아래 4번)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>1. 총칙</h2>
+    <p>리멤버블(이하 ‘앱’)의 개발자(이하 ‘개발자’)는 「개인정보 보호법」 등 관련 법령을 지키며, 이 처리방침을 통해 앱이 이용자의 정보를 어떻게 다루는지 알려드립니다.</p>
+  </section>
+
+  <section>
+    <h2>2. 개발자가 수집하는 개인정보</h2>
+    <p>개발자는 이용자의 개인정보를 <b>수집·보관·이용하지 않습니다.</b> 앱에는 회원가입·로그인 기능이 없고, 앱에서 만든 정보를 개발자에게 보내는 기능도 없습니다.</p>
+    <p>이용자가 앱에서 만든 아래 정보는 <b>이용자 기기 안의 앱 전용 저장공간</b>에만 저장됩니다.</p>
+    <ul>
+      <li>저장한 글귀, 책(출처) 이름, 책 색상, 태그, 저장한 날짜와 시각</li>
+      <li>앱 설정 (최근에 쓴 책 이름, 안내 화면을 봤는지 여부 등)</li>
+    </ul>
+    <p>단, 이용자가 휴대폰의 <b>Google 백업</b>을 켜 둔 경우 안드로이드 시스템이 위 정보를 이용자 본인의 Google 계정에 백업할 수 있습니다. 이 백업은 Google이 이용자 계정에 보관하며 개발자는 볼 수 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>3. 앱이 사용하는 권한과 이유</h2>
+    <table>
+      <thead><tr><th>권한</th><th>사용 목적</th><th>꼭 필요한가</th></tr></thead>
+      <tbody>
+        <tr><td>다른 앱 위에 표시</td><td>읽던 앱 위에 수집용 버블을 띄웁니다.</td><td>선택 (버블 기능을 쓸 때만)</td></tr>
+        <tr><td>화면 캡처 (화면 녹화·공유)</td><td>버블에서 ‘수집’을 누른 순간의 화면을 받아, 이용자가 드래그한 부분의 글자를 기기 안에서 인식합니다. 화면 이미지는 메모리에서만 처리하고 바로 버리며, 파일로 저장하거나 외부로 전송하지 않습니다.</td><td>선택 (버블 기능을 쓸 때만)</td></tr>
+        <tr><td>알림</td><td>버블이 켜져 있음을 알리는 알림(안드로이드 규칙상 필요), 하루 한 번 ‘오늘의 글귀’ 알림.</td><td>선택</td></tr>
+        <tr><td>인터넷</td><td>앱 기능에는 쓰지 않습니다. 글자 인식 라이브러리(Google ML Kit)에 포함된 권한입니다 (4번 참고).</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <p>카드 이미지를 ‘갤러리에 저장’하면, 이용자가 누른 경우에만 휴대폰의 사진 폴더(Pictures/리멤버블)에 저장됩니다. 다른 앱에서 글자를 선택해 ‘리멤버블에 저장’을 누르는 방식은 별도 권한이 필요하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>4. 외부 서비스: Google ML Kit (글자 인식)</h2>
+    <p>앱은 글자 인식에 Google의 ML Kit를 사용합니다. 글자 인식은 <b>기기 안에 내장된 모델로 처리</b>되며, 화면 이미지와 인식된 글자 내용은 Google에 전송되지 않습니다.</p>
+    <p>다만 ML Kit는 기능의 성능 측정·오류 수정·개선과 오남용 감지를 위해 다음 정보를 Google에 보낼 수 있습니다 (HTTPS로 암호화하여 전송, Google 공식 안내 기준).</p>
+    <ul>
+      <li>기기 정보: 제조사, 모델, 운영체제 버전, 사용 가능한 하드웨어 가속기</li>
+      <li>앱 정보: 패키지 이름, 앱 버전</li>
+      <li>설치별 식별자 (사용자나 기기를 특정하기 위한 것이 아닌 값)</li>
+      <li>성능 지표(처리 시간 등), 기능 설정(이미지 형식·해상도 등), 입력·출력 크기, 기능 버전, 이벤트 종류, 오류 코드</li>
+    </ul>
+    <p>이 정보는 Google이 직접 처리하며 개발자는 받지 않습니다. 자세한 내용: <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit 데이터 공개</a>, <a href="https://developers.google.com/ml-kit/terms">ML Kit 서비스 약관</a>, <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a></p>
+  </section>
+
+  <section>
+    <h2>5. 보유 기간과 파기</h2>
+    <p>기기에 저장된 정보는 이용자가 앱에서 직접 지우거나 앱을 삭제할 때까지 이용자 기기에 남습니다. 앱을 삭제하면 앱 전용 저장공간의 정보는 안드로이드 시스템에 의해 함께 삭제됩니다. 갤러리에 저장한 카드 이미지는 앱을 지워도 남으며, 사진 앱에서 직접 지울 수 있습니다. 개발자는 정보를 보관하지 않으므로 별도로 파기할 정보가 없습니다.</p>
+  </section>
+
+  <section>
+    <h2>6. 제3자 제공 및 처리 위탁</h2>
+    <p>개발자는 이용자의 개인정보를 제3자에게 제공하거나 처리를 위탁하지 않습니다. (4번의 ML Kit 정보는 Google이 라이브러리를 통해 직접 수집하는 것입니다.)</p>
+  </section>
+
+  <section>
+    <h2>7. 이용자의 권리와 행사 방법</h2>
+    <p>이용자는 언제든지 앱 안에서 글귀·책·태그를 보고, 고치고, 지울 수 있습니다. 권한은 휴대폰 설정 → 애플리케이션 → 리멤버블에서 언제든 끌 수 있습니다. 그 밖의 문의는 아래 10번 연락처로 해 주세요.</p>
+  </section>
+
+  <section>
+    <h2>8. 안전성 확보 조치</h2>
+    <p>정보는 다른 앱이 접근할 수 없는 앱 전용 저장공간에 저장되며, 앱에는 정보를 외부로 전송하는 기능이 없습니다. 화면 캡처 이미지는 저장하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>9. 자동 수집 장치 · 광고</h2>
+    <p>앱은 쿠키 등 행태정보를 수집하는 장치와 광고를 사용하지 않습니다. 앞으로 광고 등을 도입하는 경우 이 처리방침을 미리 개정하여 알려드립니다.</p>
+    <p>앱은 만 14세 미만 아동의 개인정보를 따로 수집하지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>10. 개인정보 보호책임자 및 문의</h2>
+    <ul>
+      <li>개인정보 보호책임자: 유재림 (개인 개발자)</li>
+      <li>이메일: <a href="mailto:sleepyjrim1998@naver.com">sleepyjrim1998@naver.com</a></li>
+    </ul>
+    <p>개인정보 침해에 대한 신고·상담은 아래 기관에도 하실 수 있습니다.</p>
+    <ul>
+      <li>개인정보침해신고센터: <a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a> / 국번 없이 118</li>
+      <li>개인정보분쟁조정위원회: <a href="https://www.kopico.go.kr">www.kopico.go.kr</a> / 1833-6972</li>
+      <li>대검찰청: <a href="https://www.spo.go.kr">www.spo.go.kr</a> / 국번 없이 1301</li>
+      <li>경찰청: <a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a> / 국번 없이 182</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>11. 처리방침의 변경</h2>
+    <p>이 처리방침이 바뀌면 시행 7일 전부터 이 페이지와 앱 업데이트 안내를 통해 알려드립니다.</p>
+    <p>이 처리방침은 2026년 10월 19일부터 적용됩니다.</p>
+  </section>
+</main>
+</body>
+</html>
